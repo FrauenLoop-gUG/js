@@ -22,6 +22,7 @@ Explain what ID's are and give the button an ID
 
 Create first function step by step
 
+```javascript
 
     /* Get elements of the page by their ID */
     getElementById('') 
@@ -39,3 +40,4 @@ Create first function step by step
     document.getElementById('berlin').addEventListener('click',function(){
         alert("You clicked a button on the page");  
     });
+```
