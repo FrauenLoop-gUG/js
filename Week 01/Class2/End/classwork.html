@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Class 2</title>
+	</head>
+	<body>
+		<h1 id="myh1">Happy Thursday</h1>
+		<h2 id="myh2">This is a Heading</h2>
+
+		<h4> Input a color: 
+    		<input id="choice" type="text"></input> 
+    		<button id="colorchange">Change color</button>
+    	</h4>
+
+    	<button id="b1">Click Me</button>
+    	
+    	<p id="joke"> Joke time! </p>
+    	<img id="img1" src="joke4.jpg">
+
+
+		<script type="text/javascript">
+		
+			//Alert button from first class
+			document.getElementById('b1').addEventListener('click',function(){
+				alert("You clicked a button on the page");	
+			});
+
+			// Change color on click event 
+			document.getElementById('colorchange').addEventListener('click',function(){
+				// Change color to predefined value
+				document.getElementById("myh1").style.color='blue';
+				// Use the color that is input
+				document.getElementById("myh2").style.color= document.getElementById("choice").value;
+			});
+
+			// hide image on load
+			document.getElementById("img1").addEventListener("load", function(){
+    			document.getElementById("img1").style.display = "none";
+    		});
+
+    		// Show image on mouse over
+			document.getElementById("joke").addEventListener('mouseover',function(){
+        		document.getElementById("img1").style.display = "block";
+    		});
+    		// Hide image on mouse out 
+    		document.getElementById("joke").addEventListener('mouseout',function(){					
+        		document.getElementById("img1").style.display = "none";
+    		});
+
+    		/*  =======================================================================================
+    			writing out "document.getElementById" will make your code really long and it gets a bit boring after a while. Variables are a way to store information that you are going to use over and over again
+    			=======================================================================================
+    		*/
+    		var b1 = document.getElementById('b1');
+    		//Alert button from first class
+			b1.addEventListener('click',function(){
+				alert("You clicked a button on the page");	
+			});
+
+			/*  =======================================================================================
+				Do this for all getElementById. It is good practice to keep all your variables together at the top so you are not searching through the document trying to find them. 
+				=======================================================================================
+			*/
+			var b1 = document.getElementById('b1');
+			var colorchange = document.getElementById('colorchange');
+			var myh1 = document.getElementById('myh1');
+			var myh2 = document.getElementById('myh2');
+			var choice = document.getElementById('choice');
+			var joke = document.getElementById('joke');
+			var img1 = document.getElementById('img1');
+
+			//Alert button from first class
+			b1.addEventListener('click',function(){
+				alert("You clicked a button on the page");	
+			});
+
+			// Change color on click event 
+			colorchange.addEventListener('click',function(){
+				// Change color to predefined value
+				myh1.style.color='blue';
+				// Use the color that is input
+				myh2.style.color= choice.value;
+			});
+
+			// hide image on load
+			img1.addEventListener("load", function(){
+    			img1.style.display = "none";
+    		});
+
+    		// Show image on mouse over
+			joke.addEventListener('mouseover',function(){
+        		img1.style.display = "block";
+    		});
+    		// Hide image on mouse out 
+    		joke.addEventListener('mouseout',function(){					
+        		img1.style.display = "none";
+    		});
+    
+		</script>
+
+	</body>
+</html>
