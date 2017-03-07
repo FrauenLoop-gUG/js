@@ -1,8 +1,13 @@
-# Course Outline #
+# Introduction to JavaScript #
+
+## Course Outline ##
+
+## Month I, End goal: A single page application. ##
+
 
 ## 1.	Week - Build a simple button and a pop-up window ##
 
-explain HTML doc structure explain JS role & function 
+explain HTML doc structure explain JS role & function
 
 build simple JS button (without libraries)
 
