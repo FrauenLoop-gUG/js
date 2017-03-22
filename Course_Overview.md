@@ -2,15 +2,15 @@
 
 ## 1.	Week - Build a simple button and a pop-up window ##
 
-explain HTML doc structure explain JS role & function 
+- Explain HTML doc structure explain JS role & function 
 
-build simple JS button (without libraries)
+- Build simple JS buttons (without libraries)
 
-Add HTML Headings + buttons that will change the colors of the headings
+- Add HTML Headings + buttons that will change the colors of the headings
 
-Add a mouseover image to appear on hover or zoom or fade
+- Add a mouseover image to appear on hover or zoom or fade
 
-Add a user input field that displays a pop-up window (w/input data on submit)
+- Add a user input field that displays a pop-up window (w/input data on submit)
 
 
 ## 2.	Week - Build a simple drop-down and a dynamic response button ##
