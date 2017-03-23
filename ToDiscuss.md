@@ -9,3 +9,10 @@
 >9. if statements (if input is empty)
 
 - File on bitbucket in main folder "week1...welcome to JS" follows different outline
+
+
+## Week 2 Class 1 ##
+
+- Course notes deep dive into JS function declaration vs. expressions while code is seeminly unrelated
+- Details needed to explain code
+- Where to find the "references"?

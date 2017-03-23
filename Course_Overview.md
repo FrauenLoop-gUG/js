@@ -15,7 +15,8 @@
 
 ## 2.	Week - Build a simple drop-down and a dynamic response button ##
 
-
+- Distinguish between a function _expression_ and a function _declaration_
+- Begin exploring what _higher order_ functions are
 
 ## 3.  Week - Build a dynamic countdown to a fixed event ##
 
